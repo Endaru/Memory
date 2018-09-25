@@ -1,0 +1,45 @@
+<!doctype html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>Cijferopdracht 2</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dit is een cijferopdracht voor het huiswerk HBO Rotterdam">
+    <meta name="keywords" content="Huiswerk,HBO,Rotterdam">
+    <meta name="author" content="Dennis van der Weide">
+</head>
+<body>
+<main>
+    <section>
+        <h1>Memory.</h1>
+
+        <em>So you know</em>
+
+        <p id="text">Train je Hersenen en speel mee met dit leuke spel!</p>
+
+        <h2>Spelgegevens</h2>
+        <div id ="scoreboardstart">
+            <label for="player1"></label><input id="player1" type="text" placeholder="Speler 1">
+            <label for="player2"></label><input id="player2" type="text" placeholder="Speler 2">
+            <select id="level">
+                <option value="1">Makkelijk</option>
+                <option value="2">Moelijk</option>
+            </select>
+        </div>
+        <div id ="scoreboard">
+            <div class="width">
+                <p id="player1score" class="floater"></p><p id="1scorecount" class="floater"></p><p id="p1st" class="floater"></p>
+            </div>
+            <div class="width">
+                <p id="player2score" class="floater"></p><p id="2scorecount" class="floater"></p><p id="p2st" class="floater"></p>
+            </div>
+        </div>
+            <label for="button"></label><input id="button" type="submit" value="play!">
+    </section>
+    <aside id="playfield">
+
+    </aside>
+</main>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
